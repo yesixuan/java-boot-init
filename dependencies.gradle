@@ -11,7 +11,7 @@ ext {
             "mysql:mysql-connector-java:8.0.15"
         ],
         security:[
-                "org.springframework.boot:spring-boot-starter-security:${versions.springBootVersion}",
+            "org.springframework.boot:spring-boot-starter-security:${versions.springBootVersion}",
         ],
         test   : [
             "org.springframework.boot:spring-boot-starter-test:${versions.springBootVersion}"
