@@ -7,25 +7,18 @@ spring:
     time-zone: GMT+8
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/security?serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/security?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
     username: root
     password: root
   jpa:
     show-sql: true
     hibernate:
       ddl-auto: update
-  thymeleaf:
-    cache: false
 
 logging:
   level:
     root: WARN # 控制台日志只打印 WARN 级别的
 
-security:
-  user:
-    name: root
-    password: root
-    role: ADMIN
 
 
 
